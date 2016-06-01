@@ -1,0 +1,19 @@
+{
+  "name": "sample",
+  "version": "0.0.0",
+  "description": "サンプル",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:iKenji/electron-ren.git"
+  },
+  "author": "ikenji",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iKenji/electron-ren/issues"
+  }
+}
+
