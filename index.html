@@ -3,8 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <title>Sample</title>
+  <style>
+    body {
+        -webkit-app-region: drag;
+        -webkit-user-select: none;
+    }
+  </style>
 </head>
 <body>
   <p>Hello World</p>
+    <h1>Hello World!</h1>
+    We are using node <script>document.write(process.versions.node)</script>,
+    Chrome <script>document.write(process.versions.chrome)</script>,
+    and Electron <script>document.write(process.versions.electron)</script>
 </body>
 </html>
